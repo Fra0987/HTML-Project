@@ -1,0 +1,32 @@
+body{
+    background: #eee;
+    font-family: Arial
+}
+
+p{color: red;}
+
+a{
+    color: #15c2a2; text-decoration: None
+}
+
+h1, h3, h2{color: green}
+
+header{
+    background: white;
+}
+
+footer{background: #333}
+footer p{color: white}
+
+.evi{color: #000;}
+
+.logo{text-align:center;width: 100%;display: block;font-size: 20px}
+
+#menu-principale{text-align: center;width: 95%}
+
+#menu-principale li{
+    display: inline;
+}
+#menu-principale li a{
+    margin: 10px;
+}
