@@ -1,0 +1,22 @@
+body {
+    background-color:rgb(211, 252, 252);
+}
+h1 {
+    color:brown;
+    font-family:'Franklin Gothic Medium';
+    font-size:300%;
+}
+h2 {
+    color:rgb(229, 98, 98);
+    font-family:'Franklin Gothic Medium';
+    font-size:180%;
+}
+p {
+    font-family:'Franklin Gothic Small';
+    font-size:110%;
+}
+a {
+    color:blueviolet;
+    font-family:'Franklin Gothic Small';
+    font-size:110%;
+}
