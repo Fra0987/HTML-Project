@@ -20,3 +20,19 @@ a {
     font-family:'Franklin Gothic Small';
     font-size:110%;
 }
+
+#titolo{color:rgb(43, 226, 83);
+        font-family:'Franklin Gothic Small';
+        font-size:200%;
+        text-align: center;
+}
+#logo{color:rgb(226, 137, 43);
+        font-family:'Franklin Gothic Small';
+        font-size:200%;
+        text-align: center;
+        display: block;
+        text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
