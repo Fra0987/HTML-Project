@@ -1,19 +1,42 @@
-<!DOCTYPE html> <!-bisogna sempre dichiarare inzialmente la tipologia di script->
-<html lang="it-IT"><!-per dire che il sito utilizza la lingua italiana->
-    <head> 
-        <link rel="stylesheet" href="styles.css">
-        <title translate="yes">titolo pagina</title>
+<html>
+    <head>
+        <meta charset="UFT-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>
+            Nome sito
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="slides.js"></script>
     </head>
-
-    <body> <!-il body è la parte visibile della pagina->
+    <body>
         <header>
-            <ul id = "menu">
-                <li><a href = "index.html">Titolo</a></li>
-                <a href = "chi_siamo.html" title= "se hai bisogno contattaci!">Chi siamo</a>
+            <ul id="homebarid" class="homebar">
+                <li><a href="index.html" >NOME SITO</a></li>
+                <li><a href="#generi_sezione" >DESTINAZIONI</a></li>
             </ul>
         </header>
         <main>
-            <div id="nausicaa"><img src="download.jfif"></div>
+            <div><h1 class="titolo"><b>Prenota la camera dei tuoi sogni</b></h1></div>
+            <h1 id="generi_sezione" class="generi">Destinazioni</h1>
+            <div class="slides-container">
+                <div class="slides fade">
+                    <img src="C:\Users\bo\Desktop\Vivenzio\Sito-HTML\backgroundWebsite.png" style="width:100%"> 
+                </div>
+                <div class="slides fade">
+                    <img src="C:\Users\bo\Desktop\Vivenzio\Sito-HTML\backgroundWebsite.png" style="width:100%"> 
+                </div>
+                <div class="slides fade">
+                    <img src="C:\Users\bo\Desktop\Vivenzio\Sito-HTML\backgroundWebsite.png" style="width:100%"> 
+                </div>
+            </div>  
         </main>
+        
+        <footer>
+            <ul id="footerbarid" class="footerbar">
+                <li><p>Sito creato con la collaborazione di: Aloi Vincenzo, Vivenzio Francesco e Barbato Luca</p></li>
+            </ul>
+        </footer>
+
     </body>
 </html>
